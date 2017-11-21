@@ -1,3 +1,5 @@
+/* This is a comment */
+
 .presser{
   display: flex;
   flex-direction: row;
@@ -5,7 +7,9 @@
 
 .spaced_button{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  
+  flex-grow: 1;
 }
 
 .spaced_button .button{
@@ -24,20 +28,22 @@
   display: inline-block;
   font-size: 12px;
   border-radius: 10px;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 6px #353;
 }
 
 .button:active {
-  box-shadow: 0 1px #666;
+  box-shadow: 0 2px #353;
   background-color: #3e8e41;
   transform: translateY(4px);
 }
 
 .button:hover {
-  padding: 10px 14px;
+
 }
 
 .menu{
+  justify-content: all;
+  justify-content: center;
   display: flex;
 }
 .foodItem {
